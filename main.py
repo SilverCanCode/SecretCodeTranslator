@@ -38,8 +38,8 @@ def Decode():
         a5 = w[len(w) - 2]
         a6 = w[len(w) - 3: len(w)]
         con = a + a2 + a3
-        print(con)
-        print(a6)
+        # print(con)
+        # print(a6)
         s = w.strip(a6)
         s2 = s.strip(con)
         f = s2[-1] + s2[1:-1] + s2[0]
